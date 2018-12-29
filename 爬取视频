@@ -1,0 +1,5 @@
+1.对于手机上APP视频电脑上无法操作，需下载MUMU安卓模拟器
+2.安装fiddler,将 fiddler 证书导入到用户证书
+3.安装 xposed 框架, 然后下载 JustTrustMe 这个 xposed 插件并安装
+注意xposed的安装，需要关闭安卓模拟器的兼容性设置，重启才可以使用xposed安装器自动安装。
+4.进入到APP，fiddler会自动爬取相关链接，找到getvideo一项，读取videourl即可
